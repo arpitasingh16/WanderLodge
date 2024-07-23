@@ -9,12 +9,8 @@ const listingSchema = new Schema({
     },
     description:String,
     image:{
-        type:String,
-        default:"https://unsplash.com/photos/white-and-brown-house-near-swimming-pool-during-daytime-HKr5cn6S0q0" ,
-        set : (v) => 
-            v === "" 
-                ? "https://unsplash.com/photos/white-and-brown-house-near-swimming-pool-during-daytime-HKr5cn6S0q0"
-                : v ,
+        url:String,
+        filename:String,
         },
     price:Number,
     location:String,
