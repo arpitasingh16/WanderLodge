@@ -28,5 +28,20 @@
 
 ---
 
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/wanderlodge.git
+cd wanderlodge
+npm install
+
+
+
+
+
+
+
+
 
 
